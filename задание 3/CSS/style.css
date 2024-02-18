@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(113, 113, 113);
+}
+
+.board {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+    max-width: 35%;
+}
+
+.cards {
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #d2d861;
+    border: solid 2px rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.timestamp {
+    font-size: 13px;
+}
+
+.card-content {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 0;
+    border: solid 1px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+button {
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 10px
+}
+
+button:hover {
+    background-color: #51cf56;
+}
+
+.del {
+    background-color: rgb(169, 28, 28);
+}
+
+.del:hover {
+    background-color: crimson;
+}
+
+input,
+textarea {
+    width: 95%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[type="date"] {
+    width: auto;
+}
+
+.expired {
+    background-color: rgb(175, 0, 0);
+}
+
+form {
+    margin-bottom: 20px;
+    border: solid 2px rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #d2d861;
+}
